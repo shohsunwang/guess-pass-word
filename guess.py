@@ -1,5 +1,9 @@
 import random
-r = random.randint(1, 1000)
+start = input('請輸入請起始值: ')
+end = input('請輸入請結束值: ')
+start = int(start)
+end = int(end)
+r = random.randint(start, end)
 count = 0
 while True:
     count += 1 #count = count + 1
